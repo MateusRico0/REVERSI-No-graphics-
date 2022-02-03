@@ -22,7 +22,7 @@ struct element{
 #include "node_reversi.h"
 
 
-void open(){
+void openn(){
   printf("               =------------------------------------------------------=\n");
   printf("               |--------------|||/WELCOME TO REVERSI/|||--------------|\n");
   printf("               =------------------------------------------------------=\n");
@@ -299,7 +299,7 @@ struct play RunAI(struct position currentlyPos, int level, double alfa, double b
 int main(){
     int aux = 1;
     int game_mode;
-    open();
+    openn();
 
     while(aux){
       printf("\n\n\n");
